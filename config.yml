@@ -1,0 +1,5 @@
+---
+paths:
+  fiji-exe: '/Users/an859/Downloads/Fiji.app'
+  ilastik-exe: '/Users/an859/Downloads/ilastik-1.4.1b20-arm64-OSX.app'
+  trackmate-jython: '/Users/an859/Desktop/PunctaTracking_09_2024/trackmate_script.py'
