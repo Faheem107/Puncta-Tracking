@@ -2,6 +2,8 @@
 
 This repository contains a pipeline for tracking the movement of biological condensates and clusters (puncta) using Fiji, ilastik, and Python. It enables segmentation, tracking, and quantitative analysis of time-lapse microscopy data. The pipeline employs the Mass-Balance Imaging (MBI) technique employed in Yan et al., 2022, used to study the compositional dynamics associated with multichannel movies obtained from fluorescent microscopy of condensates with multiple compartments.
 
+**NOTE:** The required filters and detectors used in tracking can be adjusted manually in the trackmate_script.py file by changing the various detector settings offered by TrackMate in Fiji.
+
 ## **Features:**
 
 Segmentation via ilastik pixel classification
