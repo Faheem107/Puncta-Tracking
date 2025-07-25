@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools >= 0.61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "puncta-tracking"
+requires-python = ">=3.10"
+dependencies = [
+    "lxml",
+    "pyyaml",
+    "numpy",
+    "scipy",
+    "pandas",
+    "networkx",
+    "scikit-image",
+    "nd2",
+    "tifffile",
+    "xarray"
+]
+dynamic = ["version"]
+readme = "README.md"
