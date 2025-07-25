@@ -2,7 +2,8 @@
 
 This repository contains a pipeline for tracking the movement of biological condensates and clusters (puncta) using Fiji, ilastik, and Python. It enables segmentation, tracking, and quantitative analysis of time-lapse microscopy data.
 
-Features:
+##**Features:**
+
 Segmentation via ilastik pixel classification
 
 ROI extraction and tracking using Fiji (TrackMate)
@@ -13,7 +14,7 @@ Customizable for multi-channel data
 
 Outputs include trajectories, intensity profiles, and kymographs
 
-Dependencies:
+##**Dependencies:**
 
 Python 3.9
 
@@ -23,7 +24,7 @@ Fiji (ImageJ) with TrackMate plugin
 
 ilastik (>=1.4)
 
-Usage:
+##**Usage:**
 
 Run segmentation in ilastik and export probability maps.
 
